@@ -267,12 +267,13 @@ html{
 }
 .curriculum .fila .item h4{
     font-size: 20px;
+    font-weight: 900;
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
     color: var(--main-highlight-color);
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 500;
     display: block;
 }
 .curriculum .fila .item .fecha{
@@ -286,6 +287,7 @@ html{
 }
 .curriculum .fila .item ul{
     list-style-position: inside;
+    opacity: 0.75;
 }
 .curriculum .fila .item ul li{
     line-height: 24px;
@@ -528,7 +530,7 @@ footer .arriba{
     }
     .sobremi .fila .col ul li span {
         display: block;
-        margin: 3px 87px 0px 0px;
+        width: fit-content;
     }
     .sobremi .fila .col .background-cv {
         width: 100%;
